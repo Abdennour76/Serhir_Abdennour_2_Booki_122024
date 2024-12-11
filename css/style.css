@@ -574,7 +574,7 @@ footer {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .main-container {
     width: 100%;
     max-width: 768px;
@@ -692,7 +692,6 @@ footer {
   .filter-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: left;
     font-size: 14px;
   }
 
