@@ -73,15 +73,13 @@ a {
 .nav-links {
   display: flex;
   gap: 20px;
+  gap: 68px;
   list-style: none;
   justify-content: flex-end;
   margin: 0;
   padding-top: 15px;
 }
 
-.nav-links li {
-  margin-left: 20px;
-}
 
 .nav-links a {
   font-size: 16px;
@@ -580,16 +578,20 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   body {
+  .main-container {
     width: 100%;
     max-width: 768px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 0;
   }
 
   /*=====HEADER=====*/
   .nav {
     height: auto;
     width: 100%;
+    height: 100px;
+    width: 375px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
@@ -603,12 +605,17 @@ footer {
     justify-content: center;
     align-items: center;
     padding-left: 85px;
+    margin-left: 90px;
+    padding: 0 20px 0 20px;
   }
 
   .nav-links {
     width: 187px;
     height: 19px;
     gap: 60px;
+    gap: 80px;
+    padding: 0 20px 0 20px;
+    margin-left: 50px;
   }
 
   .nav-links a {
@@ -620,10 +627,14 @@ footer {
     border-top: none;
     border-bottom: 3px solid var(--main-color);
     padding-bottom: 21px;
+    padding-bottom: 16px;
   }
   /*=====HEADER=====*/
 
   /*=====TITLE AND SUBTITLE=====*/
+  .title-and-subtitle {
+    padding: 0 20px 0 30px;
+  }
   .title-and-subtitle h1 {
     font-size: 22px;
     padding-top: 0;
@@ -639,6 +650,7 @@ footer {
 
   .location-search {
     padding-left: 0px;
+    padding: 0 20px 0 20px;
   }
 
   .location-input {
@@ -679,6 +691,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding: 0 20px 0 20px;
   }
 
   .filter-item {
@@ -703,6 +716,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 0px;
     display: flex;
+    padding: 0 20px 0 20px;
   }
 
   .info-item {
@@ -770,6 +784,7 @@ footer {
   .hotels-cardlist a {
     width: 100%;
     height: 100%;
+    margin-left: 15px;
   }
 
   .hotel-card {
@@ -788,6 +803,7 @@ footer {
     height: 124px;
     object-fit: cover;
   }
+
   /*=====HEBERGEMENTS=====*/
 
   /*=====POPULAIRES=====*/
@@ -848,6 +864,7 @@ footer {
   /*=====POPULAIRES=====*/
 
   /*=====ACTIVITES=====*/
+
   #activites {
     font-size: 20px;
     margin-bottom: 10px;
